@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/max-area-of-island/
 
-class DFS_Solution695_MaxAreaOfIslanda_Recursive {
+class Solution695_MaxAreaOfIslanda_DFS_Recursive {
     private var grid: [[Int]] = []
     
     private func calculateArea(x: Int, y: Int) -> Int {
@@ -29,7 +29,7 @@ class DFS_Solution695_MaxAreaOfIslanda_Recursive {
     }
 }
 
-class DFS_Solution695_MaxAreaOfIslanda_Iterative {
+class Solution695_MaxAreaOfIslanda_DFS_Iterative {
     static let differential = [(1, 0), (-1, 0), (0, 1), (0, -1)]
     
     private var grid: [[Int]] = []
