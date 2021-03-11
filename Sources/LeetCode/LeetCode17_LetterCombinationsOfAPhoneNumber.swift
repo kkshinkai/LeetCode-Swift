@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 
-class Solution17_LetterCombinationsOfAPhoneNumber_Backtracking {
+class LeetCode17_LetterCombinationsOfAPhoneNumber_Backtracking {
     private static var keyboard =
         ["", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"]
 

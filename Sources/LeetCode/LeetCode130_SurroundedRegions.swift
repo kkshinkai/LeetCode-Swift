@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/surrounded-regions/
 
-class Solution130_SurroundedRegions_DFS_Recursive {
+class LeetCode130_SurroundedRegions_DFS_Recursive {
     private func markOpenArea(x: Int, y: Int, in board: inout [[Character]]) {
         let height = board.count, width = board.first!.count
         guard (0..<height).contains(x), (0..<width).contains(y), board[x][y] == "O" else {

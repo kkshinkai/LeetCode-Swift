@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/friend-circles/
 
-class Solution547_FriendCircles_DFS_Recursive {
+class LeetCode547_FriendCircles_DFS_Recursive {
     private var relationship: [[Int]] = []
     private var visited: [Bool] = []
     

@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/number-of-islands/
 
-class Solution200_NumberOfIsland_DFS_Recursive {
+class LeetCode200_NumberOfIsland_DFS_Recursive {
     private var grid: [[Character]] = []
     
     private func surveyIsland(x: Int, y: Int) -> Int {
@@ -31,7 +31,7 @@ class Solution200_NumberOfIsland_DFS_Recursive {
     }
 }
 
-class Solution200_NumberOfIsland_DisjointSet {
+class LeetCode200_NumberOfIsland_DisjointSet {
     private class DisjointSet {
         var count = 0
         private var parent: [Int]

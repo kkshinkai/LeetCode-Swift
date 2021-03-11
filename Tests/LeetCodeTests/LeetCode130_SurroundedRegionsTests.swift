@@ -3,7 +3,7 @@ import XCTest
 
 final class Solution130_SurroundedRegionsTests: XCTestCase {
     func testRecursiveDFS() {
-        let solution = Solution130_SurroundedRegions_DFS_Recursive()
+        let solution = LeetCode130_SurroundedRegions_DFS_Recursive()
         var board: [[Character]] =
             [["X","X","X","X"],
              ["X","O","O","X"],
